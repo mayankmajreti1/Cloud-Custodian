@@ -1,0 +1,5 @@
+queue_url: https://sqs.us-east-1.amazonaws.com/815981036735/MySQS
+role: arn:aws:iam::815981036735:role/SQS-READ-ONLY-ACCESS
+from_address: mayank.majreti@tothenew.com
+lambda_tags:
+  Default: Cloud-Custodian
