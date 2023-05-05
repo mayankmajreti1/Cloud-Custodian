@@ -5,9 +5,9 @@ This folder includes cloud-custodian .yml file for - EC2 / S3 / RDS / SQS / SNS
 aws configure 
 
 # STEPS TO INSTALL CLOUD-CUSTODIAN ON YOUR LINUX MACHINE (AWS) 
-python3 -m venv custodian
-source custodian/bin/activate
-pip install c7n   
+1. python3 -m venv custodian
+2. source custodian/bin/activate
+3. pip install c7n   
 
 # INSTALLING CUSTODIAN MAILER IN YOUR EC2 
  pip install c7n-mailer
