@@ -7,7 +7,7 @@ aws configure
 # STEPS TO INSTALL CLOUD-CUSTODIAN ON YOUR LINUX MACHINE (AWS) 
 1. python3 -m venv custodian
 2. source custodian/bin/activate
-3. pip install c7n   
+3. pip install c7n .
 
 # INSTALLING CUSTODIAN MAILER IN YOUR EC2 
  pip install c7n-mailer
